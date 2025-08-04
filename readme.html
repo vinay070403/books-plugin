@@ -1,42 +1,43 @@
-# 📚 Books Plugin (WordPress)
+<h1 align="center">📚 Books Plugin for WordPress</h1>
 
-This plugin registers a **custom post type `book`** and a **REST API endpoint** to retrieve book data.
-
----
-
-## 🚀 Features
-
-- Custom Post Type: `book`
-- REST API: `/wp-json/books/v1/list`
-- Custom Fields: Author, Publisher
-- Admin UI for adding books
+<p align="center">
+A simple WordPress plugin to register a custom post type <code>book</code> with custom fields and a REST API endpoint.
+</p>
 
 ---
 
-## 🔧 Setup Instructions
+## ✨ Features
 
-1. Copy `books-plugin.php` into a folder named `books-plugin`.
-2. Put it in `wp-content/plugins/`.
-3. Activate via WordPress Admin.
-4. Go to **Books > Add New** to enter book data.
-5. Use `Custom Fields` for Author and Publisher.
-6. Visit: `http://localhost:PORT/wp-json/books/v1/list`
+- ✅ Custom Post Type: `book`
+- 🔧 REST API: `/wp-json/books/v1/list`
+- ✍️ Custom Fields: `Author`, `Publisher`
+- 🧑‍💻 Admin UI for adding books
 
 ---
 
-## 🖼 Screenshots
+## ⚙️ Installation
 
-### 1. Add New Book  
+1. Move `books-plugin.php` into a folder called `books-plugin`
+2. Place the folder into `wp-content/plugins/`
+3. Go to WordPress Admin → Plugins → Activate **Books Plugin**
+4. Navigate to **Books → Add New** to add book data
+5. Use **Custom Fields** for `Author` and `Publisher`
+6. Test API: `http://localhost:{PORT}/wp-json/books/v1/list`
+
+---
+
+## 📸 Screenshots
+
+### 📝 Add Book
 ![Add Book](assets/screenshots/add-book.png)
 
-### 2. Custom Fields  
+### 🏷️ Custom Fields
 ![Custom Fields](assets/screenshots/custom-fields.png)
 
-### 3. REST API Output  
+### 🌐 REST API Output
 ![API Output](assets/screenshots/api-response.png)
 
 ---
 
-## 📂 Folder Structure
-
+## 📁 Folder Structure
 
